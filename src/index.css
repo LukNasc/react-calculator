@@ -1,0 +1,21 @@
+:root{
+  --color-background-default: #509999;
+  --color-background-calculator: #202C4B;
+  --color-background-button: #F0C3C3;
+  --color-background-display: #3C5080;
+  --color-foreground-button: black;
+  --color-foreground-display: white;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.root{
+  display: flex;
+}
+
+html{
+  background-color: var(--color-background-default);
+}
